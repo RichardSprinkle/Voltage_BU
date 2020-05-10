@@ -16,10 +16,9 @@
            localStorage.setItem("res2", r22);
            localStorage.setItem("result", r1);
            localStorage.setItem("result1", r2);
-           
-        setTimeout(function(){window.open("results.html");},1000);
-        setTimeout(function(){window.close("index.html");},1000);
-           
+        
+        setTimeout(function(){window.close("index.html");},1000);  
+        setTimeout(function(){window.open("results.html");},1000)          
      
  }
  

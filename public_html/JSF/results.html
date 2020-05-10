@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Voltstyle.css" type="text/css"/>
+       
+  </head> 
+  
+   <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>              
+            </nav>                   
+   </header>
+  
+  <body>
+    
+  <h1 class="box"> Voltage Divider Results</h1><br><br>
+     
+    <table>
+           
+        <caption>User Details</caption>       
+        <thead>
+            <tr>
+                <th>Volts..</th>
+                <th>Resist1</th>
+                <th>Resist2</th>
+                <th>Result1</th>
+                <th>Result2</th>
+            </tr>
+       </thead>
+       
+       <tbody>
+            <tr>
+                <td id="volt"></td>
+                <td id="res1"></td>
+                <td id="res2"></td>
+                <td id="result"></td>
+                <td id="result1"></td>
+            </tr>
+           
+       </tbody>
+    </table><br>  
+    
+     <script>
+        document.getElementById("volt").innerHTML = localStorage.getItem("volt");
+        document.getElementById("res1").innerHTML = localStorage.getItem("res1");
+        document.getElementById("res2").innerHTML = localStorage.getItem("res2");
+        document.getElementById("result").innerHTML = localStorage.getItem("result");
+        document.getElementById("result1").innerHTML = localStorage.getItem("result1");
+        
+     </script> 
+     
+    </body>
+</html>

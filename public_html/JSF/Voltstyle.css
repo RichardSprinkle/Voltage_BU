@@ -1,0 +1,104 @@
+
+
+ <style  type="text/css"> 
+ 
+       label {
+            font-size: 18px;
+        }
+        
+        body { 
+          background-color: #F0F8FF;
+        }
+        
+        form {
+            text-align: center;
+             margin-top: 100px;
+        }
+        fieildset {
+            
+        }
+        
+        input {
+            background-color: #FFFAF0;
+            text-align: center;
+            color: black;
+            width: 75px;
+            font-size: 16px;
+            border: 2px solid black;
+            border-radius: 4px
+        } 
+        
+        button {
+            border-radius: 15px;
+            width: 200px;
+            height: 50px;
+            font-size: 14px;
+            background-color: buttonshadow;
+            border: 2px solid black;
+            color: black;
+        }       
+        
+        h1 {
+            text-align: center;
+            color: gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: gray;
+         
+        }
+        
+         li {
+            display: inline;
+            margin: 15px;
+            color: blue;
+            font-size: 20px;
+        }
+        
+        .c {
+             display: flex;
+             justify-content: center; 
+        }
+        
+        .box {           
+            height: 40px;
+            width:  350px;
+            border: 5px solid lightgreen;
+            background-color: #f1f1c1;
+            position: fixed;
+            margin-left:-150px; /* half of width */
+            margin-top: 5px;  /* half of height */
+            //top: 10%;
+            left:48%;
+        }
+        
+        .box2 {           
+            height: 32px;
+            width:  350px;
+            border: 5px solid lightgreen;
+            background-color: #f1f1c1;
+            position: fixed;
+            margin-left:-150px; /* half of width */
+            margin-top: 70px;  /* half of height */
+            //top: 10%%;
+            left: 48%;
+        }
+        
+        table, th, td{
+            border: 2px solid black;
+            background-color: #f1f1c1;
+            border-collapse: collapse;
+            margin-left: 29%;
+            margin-top: 70px; 
+        }
+        
+        table {
+            width: 45%;
+            border-spacing: 5px;
+            text-align: center;
+        }
+        
+   </style>
+        
+   

@@ -98,6 +98,14 @@
             border-spacing: 5px;
             text-align: center;
         }
+
+        canvas {
+            border:1px solid #000000;           
+            background-color: pink;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 20px;           
+        }
         
    </style>
         
